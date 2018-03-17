@@ -1,0 +1,10 @@
+user_homepage:
+    path:     /
+    defaults: { _controller: UserBundle:Default:index }
+    
+Page_Agent:
+    path:     /Agent
+    defaults: { _controller: UserBundle:Agent:Affich }
+Page_Client:
+    path:     /Client
+    defaults: { _controller: UserBundle:Client:index }    
